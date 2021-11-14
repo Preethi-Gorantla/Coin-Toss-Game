@@ -8,7 +8,7 @@ class CoinToss extends Component {
   };
 
   onChangeImage = () => {
-    const { button, heads, tails } = this.state;
+    const {  heads, tails } = this.state;
     const toss = Math.floor(Math.random() * 2);
     let latestHeadsCount = heads;
     let latestTailsCount = tails;
